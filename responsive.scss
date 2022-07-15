@@ -3,6 +3,9 @@ Screen - 1200px
 ----------------------------------------------------*/
 
 @media screen and (max-width: 1200px) {
+  .main {
+    height: 650px;
+  }
   .bottom_left {
     flex-basis: 40%;
   }
@@ -60,6 +63,9 @@ Screen - 768px
   ul li {
     font-size: 1.3rem;
   }
+  .main {
+    height: 450px;
+  }
 
   .bottom_left {
     flex-basis: 40%;
@@ -76,13 +82,15 @@ Screen - 768px
       margin-bottom: -2rem;
     }
   }
-
 }
 
 /*---------------------------------------------------- 
 Screen - 640px
 ----------------------------------------------------*/
 @media screen and (max-width: 640px) {
+    .main {
+  height: 400px;
+}
   span,
   p,
   ul li {
@@ -131,6 +139,10 @@ Screen - 460px
   h1 {
     font-size: 1.2rem;
   }
+
+    .main {
+  height: 300px;
+}
   .service_content {
     text-align: center;
     h2 {

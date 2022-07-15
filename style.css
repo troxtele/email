@@ -135,7 +135,7 @@ Main Area
   background-repeat: no-repeat;
   background-position: top center;
   width: 100%;
-  height: 100vh;
+  height: 550px;
   overflow: hidden;
   background-image: url(images/bg.png);
 }
