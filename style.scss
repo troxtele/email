@@ -43,13 +43,6 @@ button {
   border: none;
 }
 
-.btn {
-  display: inline-block;
-  background-color: var(--orng);
-  border-radius: 3px;
-  color: var(--white);
-}
-
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -59,10 +52,8 @@ button {
 }
 
 body {
-  font-family: "special elite", "Roboto", sans-serif;
   font-style: normal;
   line-height: 1.5;
-  color: var(--bg);
 }
 
 h1,
@@ -85,7 +76,7 @@ p {
 p,
 span,
 li {
-  color: rgb(0, 4, 12);
+  color: #000814;
 }
 section {
   padding: 2rem 0;
@@ -112,12 +103,13 @@ header {
   left: 0;
   right: 0;
   top: 4rem;
-  h1 {
-    font-weight: 700;
-    background-color: #70c02e;
-    text-align: center;
-    padding: 1rem 0;
-  }
+}
+h1 {
+  font-weight: 700;
+  background-color: #70c02e;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 3rem;
 }
 
 /*---------------------------------------------------- 
@@ -149,18 +141,21 @@ Main Area
   gap: 0.5rem;
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 .service_left {
-  flex-basis: 40%;
+  flex-basis: 35%;
 }
 
 .mobile {
-  margin-top: -9.5rem;
+  margin-top: -8rem;
+  img {
+    width: 80%;
+  }
 }
 .service_right {
-  flex-basis: 60%;
+  flex-basis: 65%;
   .btn {
     margin-top: 2rem;
     align-self: flex-end;
@@ -177,8 +172,10 @@ Main Area
   }
 }
 
-.main_content {
-  padding-right: 3rem;
+.service {
+  .main_content {
+    padding-right: 7rem;
+  }
 }
 
 /*---------------------------------------------------- 
@@ -203,7 +200,7 @@ bottom Area
   font-size: 1.5rem;
   h2 {
     color: #70c02e;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
   }
   ul {

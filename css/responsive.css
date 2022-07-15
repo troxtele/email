@@ -1,0 +1,221 @@
+/*---------------------------------------------------- 
+Screen - 1200px
+----------------------------------------------------*/
+@media screen and (max-width: 1200px) {
+  .main {
+    height: 500px;
+  }
+  .service_content h2 {
+    font-size: 2.5rem;
+  }
+  .bottom_left {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 1080px
+----------------------------------------------------*/
+@media screen and (max-width: 1080px) {
+  .bottom_left {
+    -ms-flex-preferred-size: 44%;
+        flex-basis: 44%;
+  }
+  .bottom img {
+    width: 35rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 1080px
+----------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  span,
+  p,
+  ul li {
+    font-size: 1.2rem;
+  }
+  .service_content h2 {
+    font-size: 2rem;
+  }
+  .service_content .main_content {
+    padding-right: 5rem;
+  }
+  .bottom_left {
+    -ms-flex-preferred-size: 46%;
+        flex-basis: 46%;
+  }
+  .bottom img {
+    width: 33rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 860px
+----------------------------------------------------*/
+@media screen and (max-width: 860px) {
+  .bottom img {
+    width: 28rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 768px
+----------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .main {
+    height: 420px;
+  }
+  .service h2 {
+    font-size: 1.6rem;
+  }
+  .service h2 .main_content {
+    padding-right: 4rem;
+  }
+  .service_left {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  .service_right {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+  }
+  .bottom_left {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  .bottom_left ul {
+    padding-right: 12rem;
+  }
+  .bottom_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bottom_right {
+    position: static;
+  }
+  .bottom_right img {
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: -2rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 640px
+----------------------------------------------------*/
+@media screen and (max-width: 640px) {
+  span,
+  p,
+  ul li {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+  .main {
+    height: 380px;
+  }
+  .service_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mobile {
+    margin-top: -8.5rem;
+  }
+  .mobile img {
+    width: 60%;
+  }
+  .service_content h2 {
+    font-size: 1.8rem;
+  }
+  .service .main_content {
+    padding-right: 6rem;
+  }
+  .service_right .btn a {
+    margin-right: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .bottom h2 {
+    font-size: 1.8rem;
+  }
+  .bottom_left ul {
+    padding-right: 4rem;
+  }
+  footer span {
+    font-size: 0.8rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 500px
+----------------------------------------------------*/
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 460px
+----------------------------------------------------*/
+@media screen and (max-width: 460px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  .main {
+    height: 300px;
+  }
+  .service_content h2 {
+    font-size: 1.5rem;
+  }
+  .service_content .main_content {
+    padding-right: 2rem;
+  }
+  .mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bottom_left ul {
+    padding-right: 0;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 400px
+----------------------------------------------------*/
+@media screen and (max-width: 400px) {
+  span,
+  p,
+  ul li {
+    font-size: 1.1rem;
+  }
+  .service_content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 360px
+----------------------------------------------------*/
+/*---------------------------------------------------- 
+Screen - 300px
+----------------------------------------------------*/
+/*# sourceMappingURL=responsive.css.map */

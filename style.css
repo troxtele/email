@@ -36,13 +36,6 @@ button {
   border: none;
 }
 
-.btn {
-  display: inline-block;
-  background-color: var(--orng);
-  border-radius: 3px;
-  color: var(--white);
-}
-
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -52,10 +45,8 @@ button {
 }
 
 body {
-  font-family: "special elite", "Roboto", sans-serif;
   font-style: normal;
   line-height: 1.5;
-  color: var(--bg);
 }
 
 h1,
@@ -78,7 +69,7 @@ p {
 p,
 span,
 li {
-  color: #00040c;
+  color: #000814;
 }
 
 section {
@@ -120,11 +111,12 @@ header {
   top: 4rem;
 }
 
-header h1 {
+h1 {
   font-weight: 700;
   background-color: #70c02e;
   text-align: center;
   padding: 1rem 0;
+  font-size: 3rem;
 }
 
 /*---------------------------------------------------- 
@@ -157,21 +149,25 @@ Main Area
 }
 
 .service_content h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .service_left {
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
 }
 
 .mobile {
-  margin-top: -9.5rem;
+  margin-top: -8rem;
+}
+
+.mobile img {
+  width: 80%;
 }
 
 .service_right {
-  -ms-flex-preferred-size: 60%;
-      flex-basis: 60%;
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
 }
 
 .service_right .btn {
@@ -190,8 +186,12 @@ Main Area
   font-weight: 600;
 }
 
-.main_content {
-  padding-right: 3rem;
+.service .main_content {
+  padding-right: 7rem;
+}
+
+.service .btn {
+  margin-right: 3rem;
 }
 
 /*---------------------------------------------------- 
@@ -222,7 +222,7 @@ bottom Area
 
 .bottom_left h2 {
   color: #70c02e;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
