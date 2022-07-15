@@ -1,0 +1,158 @@
+/*---------------------------------------------------- 
+Screen - 1200px
+----------------------------------------------------*/
+@media screen and (max-width: 1200px) {
+  .bottom_left {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 1080px
+----------------------------------------------------*/
+@media screen and (max-width: 1080px) {
+  .bottom_left {
+    -ms-flex-preferred-size: 44%;
+        flex-basis: 44%;
+  }
+  .bottom img {
+    width: 35rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 1080px
+----------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+  .service_content h2 {
+    font-size: 2rem;
+  }
+  .bottom_left {
+    -ms-flex-preferred-size: 46%;
+        flex-basis: 46%;
+  }
+  .bottom img {
+    width: 33rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 860px
+----------------------------------------------------*/
+@media screen and (max-width: 860px) {
+  .bottom img {
+    width: 28rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 768px
+----------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  span,
+  p,
+  ul li {
+    font-size: 1.3rem;
+  }
+  .bottom_left {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  .bottom_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bottom_right {
+    position: static;
+  }
+  .bottom_right img {
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: -2rem;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 640px
+----------------------------------------------------*/
+@media screen and (max-width: 640px) {
+  span,
+  p,
+  ul li {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .service_content h2 {
+    font-size: 1.8rem;
+  }
+  .service .main_content {
+    padding-right: 0;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 500px
+----------------------------------------------------*/
+@media screen and (max-width: 500px) {
+  .service_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mobile {
+    margin-top: -7.5rem;
+  }
+  .mobile img {
+    width: 70%;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 460px
+----------------------------------------------------*/
+@media screen and (max-width: 460px) {
+  span,
+  p,
+  ul li {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  .service_content {
+    text-align: center;
+  }
+  .service_content h2 {
+    font-size: 1.5rem;
+  }
+  .service_right .btn a {
+    background-color: #70c02e;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/*---------------------------------------------------- 
+Screen - 400px
+----------------------------------------------------*/
+/*---------------------------------------------------- 
+Screen - 300px
+----------------------------------------------------*/
+/*# sourceMappingURL=responsive.css.map */
